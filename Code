@@ -180,7 +180,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Bedwars",
    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
    end,
 })
 
